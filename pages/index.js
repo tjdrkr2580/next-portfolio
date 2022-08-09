@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>김태현 | 포트폴리오</title>
+        <title>Home | Kim Tae Hyun</title>
         <meta name="description" content="김태현의 포트폴리오입니다." />
         <link rel="icon" href="/favicon.ico" />
       </Head>

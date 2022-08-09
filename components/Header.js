@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <>
@@ -19,9 +21,18 @@ export default function Header() {
             <span className="ml-3 text-xl">Kim Tae Hyun</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900">홈</a>
-            <a className="mr-5 hover:text-gray-900">프로젝트</a>
-            <a className="mr-5 hover:text-gray-900">연락하기</a>
+            <Link href="/">
+              <a className="mr-5 hover:text-gray-900">Home</a>
+            </Link>
+            <Link href="/projects">
+              <a className="mr-5 hover:text-gray-900">Project</a>
+            </Link>
+            <Link href="/about-me">
+              <a className="mr-5 hover:text-gray-900">About</a>
+            </Link>
+            <Link href="https://open.kakao.com/o/sfNWlNue">
+              <a className="mr-5 hover:text-gray-900">Contact</a>
+            </Link>
           </nav>
           <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
             Button
