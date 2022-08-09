@@ -1,4 +1,5 @@
 import Link from "next/link";
+import DarkmodeToggleBtn from "./Dark-mode-toggle-btn";
 
 export default function Header() {
   return (
@@ -11,9 +12,9 @@ export default function Header() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
                 viewBox="0 0 24 24"
               >
@@ -35,6 +36,7 @@ export default function Header() {
             <Link href="https://open.kakao.com/o/sfNWlNue">
               <a className="mr-5 hover:text-gray-900">Contact</a>
             </Link>
+            <DarkmodeToggleBtn />
           </nav>
         </div>
       </header>

@@ -1,12 +1,12 @@
-import Footer from './Footer';
-import Header from './Header';
+import Footer from "./Footer";
+import Header from "./Header";
 
-export default function Layout({children}) {
-    return (
-        <>
-            <Header/>
-            <div>{children}</div>
-            <Footer/>
-        </>
-    )
+export default function Layout({ children }) {
+  return (
+    <div className="bg-primary">
+      <Header />
+      <div>{children}</div>
+      <Footer />
+    </div>
+  );
 }
