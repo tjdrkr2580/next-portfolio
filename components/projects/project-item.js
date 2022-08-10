@@ -6,7 +6,7 @@ export default function ProjectItem({ data }) {
   const des = data.properties.설명.rich_text[0].plain_text;
   const tags = data.properties.태그.multi_select;
   return (
-    <div className="bg-slate-400 p-6 m-3 rounded-md">
+    <div className="scale bg-slate-300 dark:bg-slate-800 p-6 m-3 rounded-md">
       <h1 className="mt-4 text-xl mb-2">{title}</h1>
       <h3 className="mb-2">{des}</h3>
       <a href={`${github}`} target="_blink">

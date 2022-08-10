@@ -26,3 +26,12 @@ a {
 p {
   @apply text-slate-500 dark:text-slate-400;
 }
+
+.scale {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.scale:hover {
+  transform: scale(1.015);
+}
