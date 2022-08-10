@@ -1,17 +1,18 @@
 import Layout from "./../components/Layout";
 import Title from "./../components/Title";
 import { TOKEN, DATABASE_ID } from "../config";
-import ProjectItem from "./../projects/project-item";
+import ProjectItem from "../components/projects/project-item";
 
 export default function Projects({ projects }) {
   return (
     <>
       <Layout>
         <Title title="Project" />
-        <h1>총 프로젝트 갯수 : {`${projects.results.length}`}</h1>
-        {projects.results.map((aProject) => (
-          <ProjectItem key={aProject.id} data={aProject} />
-        ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:w-full">
+          {projects.results.map((aProject) => (
+            <ProjectItem key={aProject.id} data={aProject} />
+          ))}
+        </div>
       </Layout>
     </>
   );

@@ -3,10 +3,10 @@ import Header from "./Header";
 
 export default function Layout({ children }) {
   return (
-    <div className="bg-primary">
+    <div className="flex flex-col h-screen justify-between">
       <Header />
       <div>{children}</div>
-      <Footer />
+      <Footer className="" />
     </div>
   );
 }

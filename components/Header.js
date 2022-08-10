@@ -30,9 +30,6 @@ export default function Header() {
             <Link href="/projects">
               <a className="mr-5 hover:text-gray-900">Project</a>
             </Link>
-            <Link href="/about-me">
-              <a className="mr-5 hover:text-gray-900">About</a>
-            </Link>
             <Link href="https://open.kakao.com/o/sfNWlNue">
               <a className="mr-5 hover:text-gray-900">Contact</a>
             </Link>
