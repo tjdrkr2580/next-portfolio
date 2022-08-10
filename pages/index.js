@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <Head>
         <title>Home | Kim Tae Hyun</title>
-        <meta name="description" content="김태현의 포트폴리오입니다." />
+        <meta name="description" content="Next.js 포트폴리오 프로젝트" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="flex min-h-screen items-center justify-center flex-col text-gray-60 body-font">
