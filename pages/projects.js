@@ -1,7 +1,7 @@
 import Layout from "./../components/Layout";
 import Title from "./../components/Title";
 import { TOKEN, DATABASE_ID } from "../config";
-import { useState } from "react";
+import ProjectItem from "./../projects/project-item";
 
 export default function Projects({ projects }) {
   return (
@@ -9,6 +9,9 @@ export default function Projects({ projects }) {
       <Layout>
         <Title title="Project" />
         <h1>총 프로젝트 갯수 : {`${projects.results.length}`}</h1>
+        {projects.results.map((aProject) => (
+          <ProjectItem key={aProject.id} data={aProject} />
+        ))}
       </Layout>
     </>
   );
