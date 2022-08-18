@@ -1,12 +1,5 @@
 # Next Portfolio
 
-Github: https://github.com/tjdrkr2580/next-portfolio
-기간: 2022년 8월 10일
-설명: Next.js와 TailwindCSS, Notion을 이용한 포트폴리오 사이트
-태그: Lottie, Next.js, TailwindCSS
-
-# Next Portfolio
-
 ---
 
 ![next-portfolio.gif](Next%20Portfolio%20fb6d7eb9c32c48b78d6acff69f07bddc/next-portfolio.gif)
